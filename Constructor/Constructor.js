@@ -19,6 +19,3 @@ function Dog(name,age,color) {
 const myDog = new Dog("Sally",10,"white");
 
 const Dog2 = new Object(); // This can create new object from the object of javascript called --> Object
-
-
-
