@@ -27,10 +27,12 @@ person2.greeting();
 // person1.greeting();
 
 
-// EXAMPLE 2 --> MODIFY THE EXISTENT PROTOTYPE
+// EXAMPLE 2 --> MODIFY THE EXISTENT PROTOTYPE 
 
 const MyName = new String("Brandon Alexis Quintero");
 String.prototype.value = function () {
     return 1;
 };
 console.log(MyName.value());
+
+"Brandon".value()
